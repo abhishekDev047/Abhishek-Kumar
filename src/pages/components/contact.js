@@ -7,11 +7,11 @@ const Contact = () => {
   return (
     <div className='items-center p-5 flex flex-col '>
     <div className='flex flex-row justify-between items-center p-5 w-full h-full '>
-      <Link className='' href={''}>  <SiGithub/></Link>
-      <Link className='' href={''}> <SiLinkedin/>  </Link>
-      <Link className='' href={''}> <SiInstagram/> </Link>
-      <Link className='' href={''}> <SiTwitter/> </Link>
-      <Link className='' href={''}> <SiIndeed/> </Link>
+      <Link className='hover:text-blue-700' href={''}>  <SiGithub/></Link>
+      <Link className='hover:text-blue-700' href={''}> <SiLinkedin/>  </Link>
+      <Link className='hover:text-blue-700' href={''}> <SiInstagram/> </Link>
+      <Link className='hover:text-blue-700' href={''}> <SiTwitter/> </Link>
+      <Link className='hover:text-blue-700' href={''}> <SiIndeed/> </Link>
     </div>
  <div className='flex flex-row my-auto'>
    <p className='mt-1 mx-2'> <SiGmail/></p> <p>abhishekkumar.in47@gmail.com</p>
