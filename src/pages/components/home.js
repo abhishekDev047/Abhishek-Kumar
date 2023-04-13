@@ -10,7 +10,7 @@ const HomePage = () => {
         <div >
             <Head> <title>abhishek-kumar</title></Head>
             <div className='h-[500px] bg-slate-200 text-center flex flex-col topsection'>
-                <div className='mx-auto md:my-auto mt-60 flex flex-col animate-bounce items-center text-2xl'>
+                <div className='mx-auto md:my-auto mt-60 flex flex-col items-center text-2xl'>
                     <p>Hi I am</p>
                     <p className='text-red-900'> Abhishek Kumar</p>
                     <p className=''> Frontend Web Developer </p>
