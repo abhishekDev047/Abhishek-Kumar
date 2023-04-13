@@ -3,6 +3,7 @@ import React from 'react'
 import Contact from './contact';
 import { SlPhone } from "react-icons/sl";
 import { SiWhatsapp,SiHtml5,SiCss3,SiJavascript,SiNodedotjs,SiNpm,SiYarn,SiBootstrap,SiTailwindcss,SiReact,SiNextdotjs,SiGit,SiGithub } from "react-icons/si";
+import Image from 'next/legacy/image';
 
 const About = () => {
   return (
@@ -11,7 +12,10 @@ const About = () => {
     <div className='flex flex-col md:px-20 md:text-lg sm:px-10 lg:px-32 lg:text-xl flex-wrap items-center p-3'>
 
       <div >
-          <img
+          <Image
+          layout='intrinsic'
+          width={1000}
+          height={750}
           className=' rounded-r-3xl rounded-bl-full rounded-tl-3xl'
             src='/images/meriphoto.jpg'
           />
