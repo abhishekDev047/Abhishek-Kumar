@@ -8,7 +8,7 @@ const Contact = () => {
     <div className='items-center p-5 flex flex-col '>
     <div className='flex flex-row justify-center items-center p-5 w-full h-full '>
       <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://github.com/abhishekDev047'}>  <SiGithub/></Link>
-      <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://linkedin.com/abhishek-kuamr-080086241'}> <SiLinkedin/>  </Link>
+      <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://www.linkedin.com/in/abhishek-kumar-080086241/'}> <SiLinkedin/>  </Link>
       <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://www.instagram.com/ab_hish_ek_1/'}> <SiInstagram/> </Link>
       <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://twitter.com/abhishek_dev_47'}> <SiTwitter/> </Link>
     </div>
