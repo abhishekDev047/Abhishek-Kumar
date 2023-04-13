@@ -18,6 +18,7 @@ const About = () => {
           height={750}
           className=' rounded-r-3xl rounded-bl-full rounded-tl-3xl'
             src='/images/meriphoto.jpg'
+            alt='abhishek-kumar'
           />
       </div>
 

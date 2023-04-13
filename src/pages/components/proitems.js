@@ -16,7 +16,7 @@ const Proitems = ({title, desc, techno, link, code, type, src, key}) => {
             height={300}
             className=' rounded-lg'
             src={src}
-            alt={title}
+            alt={'abhishek kumar'}
              />
         </div>
 
