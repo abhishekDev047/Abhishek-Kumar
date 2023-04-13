@@ -2,13 +2,13 @@ import React from 'react';
 import Head from 'next/head';
 import Proitems from './proitems';
 import { useState, useEffect } from 'react';
-import proData from "../../files/data.js";
+import projects from "../../files/data.js";
 
 const Projects = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-      setData(proData);
+      setData(projects);
   }, []);
  
   return (
