@@ -5,10 +5,10 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import Image from 'next/legacy/image';
 
-const Proitems = ({title, desc, techno, link, code, type, src, key}) => {
+const Proitems = ({title, desc, techno, link, code, type, src}) => {
  
   return (
-    <div className='pro text-lg md:w-1/2 px-5 py-5 flex flex-col' key={key}>
+    <div className='pro text-lg md:w-1/2 px-5 py-5 flex flex-col'>
         <div>
             <Image
             layout='intrinsic'
