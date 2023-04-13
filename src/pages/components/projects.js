@@ -11,14 +11,18 @@ const Projects = () => {
       setData(proData);
   }, []);
  
-  return (<>
+  return (
+   <div className='flex flex-col px-auto'>
         <Head> <title>My Projects </title></Head>
-    <div className='flex flex-col sm:flex-row flex-wrap w-full '>
+    <div className='flex flex-col sm:flex-row flex-wrap w-full px-2'>
       {data.map((project)=>(
         <Proitems title={project.name} desc={project.description} techno={project.technologies} link={project.link} code={project.source} type={project.type} src={project.img} key={project.name}/>
       ))}
     </div>
-  </>
+    <div className='pro text-center'>
+      I am still working on some projects so when you visit here next time , you will spot some new projects. 
+    </div>
+  </div>
   )
 }
 

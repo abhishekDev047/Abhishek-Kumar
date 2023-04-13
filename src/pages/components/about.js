@@ -33,18 +33,18 @@ I am a hard-working and dedicated individual, and I believe that my passion for 
           <div className='text-lg '>
           <p className='font-medium mt-5 relative left-3 text-blue-700'> Skills*</p>
           <p className='flex flex-row flex-wrap'>
-          <span className="m-2 text-lg"><SiHtml5 /></span>
-          <span className="m-2 text-lg"><SiCss3 /></span>
-          <span className="m-2 text-lg"><SiJavascript /></span>
-          <span className="m-2 text-lg"><SiNodedotjs /></span>
-          <span className="m-2 text-lg"><SiNpm /></span>
-          <span className="m-2 text-lg"><SiYarn /></span>
-          <span className="m-2 text-lg"><SiBootstrap /></span>
-          <span className="m-2 text-lg"><SiTailwindcss /></span>
-          <span className="m-2 text-lg"><SiReact /></span>
-          <span className="m-2 text-lg"><SiNextdotjs /></span>
-          <span className="m-2 text-lg"><SiGit /></span>
-          <span className="m-2 text-lg"><SiGithub /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiHtml5 /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiCss3 /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiJavascript /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiNodedotjs /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiNpm /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiYarn /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiBootstrap /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiTailwindcss /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiReact /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiNextdotjs /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiGit /></span>
+          <span className="m-2 text-lg lg:text-2xl"><SiGithub /></span>
 
 
           </p>
