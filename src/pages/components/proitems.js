@@ -5,7 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import Image from 'next/legacy/image';
 
-const Proitems = ({title, desc, techno, link, code, type, src}) => {
+const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
  
   return (
     <div className='pro text-lg md:w-1/2 px-5 py-5 flex flex-col'>
@@ -27,7 +27,7 @@ const Proitems = ({title, desc, techno, link, code, type, src}) => {
             <div className='flex flex-row flex-wrap h-10'>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>visit site here</i>
-                <Link href={link}
+                <Link href={pink}
                className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
                     <CgWebsite/>
@@ -35,7 +35,7 @@ const Proitems = ({title, desc, techno, link, code, type, src}) => {
                </p>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>source code here</i>
-                <Link href={code}
+                <Link href={rode}
                 className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
                     <BsGithub/>

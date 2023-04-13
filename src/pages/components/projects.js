@@ -16,7 +16,7 @@ const Projects = () => {
         <Head> <title>My Projects </title></Head>
     <div className='flex flex-col sm:flex-row flex-wrap w-full px-2'>
       {data.map((project,index)=>(
-        <Proitems title={project.name} desc={project.description} techno={project.technologies} link={project.link} code={project.source} type={project.type} src={project.img} key={index}/>
+        <Proitems title={project.name} desc={project.description} techno={project.technologies} pink={project.link} rode={project.source} type={project.type} src={project.img} key={index}/>
       ))}
     </div>
     <div className='pro text-center'>
