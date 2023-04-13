@@ -27,19 +27,19 @@ const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
             <div className='flex flex-row flex-wrap h-10'>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>visit site here</i>
-                <Link href={pink}
+                <a href={pink}
                className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
                     <CgWebsite/>
-                </Link>
+                </a>
                </p>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>source code here</i>
-                {/* <Link href={rode}
+                <a href={rode}
                 className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
                     <BsGithub/>
-                </Link> */}
+                </a>
                </p>
             </div>
         </div>
