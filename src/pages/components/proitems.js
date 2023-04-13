@@ -27,11 +27,11 @@ const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
             <div className='flex flex-row flex-wrap h-10'>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>visit site here</i>
-                {/* <Link href={pink}
+                <Link href={pink}
                className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
                     <CgWebsite/>
-                </Link> */}
+                </Link>
                </p>
               <p className='mx-2'>
               <i className='text-xs md:text-base'>source code here</i>
