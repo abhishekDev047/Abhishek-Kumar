@@ -1,5 +1,14 @@
 let projects= [
     {
+      "name": "Kilogram",
+      "type": "Social Media site",
+      "technologies": "Next.js & tailwindcss",
+      "description": "This is a social media site , I am still working on it I'm trying to add a chatbot and adding dark mode and there are some issues . I'm trying my best , beside these things the site is working fine.",
+      "link": "https://kilogram-047.vercel.app/",
+      "source": "https://github.com/abhishekDev047/Kilogram-",
+      "img": "/images/kilogram.png"
+    },
+    {
       "name": "E-bazaar",
       "type": "Online shopping site",
       "technologies": "React.js & tailwindcss",
