@@ -9,13 +9,13 @@ const HomePage = () => {
     return (
         <div >
             <Head> <title>abhishek-kumar</title></Head>
-            <div className='h-[500px] bg-slate-200 text-center flex flex-col topsection'>
+            <div className='h-[550px] bg-slate-200 text-center flex flex-col topsection'>
                 <div className='mx-auto md:my-auto mt-60 flex flex-col items-center text-2xl'>
                     <p>Hi I am</p>
                     <p className='text-red-900'> Abhishek Kumar</p>
                     <p className=''> Frontend Web Developer </p>
                 </div>
-                <div className=' mx-auto flex flex-row flex-wrap mt-10'>
+                <div className=' mx-auto  items-center justify-center flex flex-row flex-wrap mt-10 pb-5'>
                     <p className='mx-2 my-2 '>
                         <Image
                             className='rounded-xl'
@@ -46,7 +46,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <div className='h-[300px] px-4 flex flex-col text-left midsection'>
+            <div className='h-[300px] px-4 flex flex-col text-left midsection pt-3'>
 
                 <div className='my-auto'>
                         Welcome , i have created so many projects  and <Link href={'/components/projects'} className='text-blue-700 hover:text-blue-400' >here</Link> you can find some of them. Please do not forgot to give me feedback about them . <Link className='text-blue-700 hover:text-blue-400' href={'/components/about'}>Here</Link>  are my contact details  And also check my <Link className='text-blue-700 hover:text-blue-400 even:' href={'/'}> Github</Link> profile for source code and check out other  repositories. <i>Thank You</i>  
@@ -54,13 +54,16 @@ const HomePage = () => {
             </div>
             <div className='footer text-sm flex flex-col h-[150px] bg-black text-white'>
 
-                    <div>
-                        Thank you for visiting 
-                    </div>
+                <div className='pt-2'>
+                        <div>
+                                        Thank you for visiting 
+                                    </div>
 
-                    <div>
-                        <Contact/>
-                    </div>
+                                    <div>
+                                        <Contact/>
+                                    </div>
+                </div>
+               
             </div>
         </div>
     )

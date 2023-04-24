@@ -7,8 +7,8 @@ import Image from 'next/legacy/image';
 const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
  
   return (
-    <div className='pro text-lg md:w-1/2 px-5 py-5 flex flex-col'>
-        <div>
+    <div className='pro  md:w-1/2 w-full px-5 py-5 flex flex-col items-center'>
+        <div className='px-auto'>
             <Image
             layout='intrinsic'
             width={550}
@@ -19,13 +19,13 @@ const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
              />
         </div>
 
-        <div className='text-center flex flex-col'>
+        <div className='text-center flex flex-col items-center'>
             <p className='text-2xl'>{title}</p>
-            <p> {desc}</p>
-            <p className='text-sm '> {type} made with {techno} </p>
-            <div className='flex flex-row flex-wrap h-10'>
+            <p className='text-base sm:lg px-2'> {desc}</p>
+            <p className='text-xs '> {type} made with {techno} </p>
+            <div className='flex flex-row flex-wrap h-10 justify-center'>
               <p className='mx-2'>
-              <i className='text-xs md:text-base'>visit site here</i>
+              {/* <i className='text-xs md:text-base'>visit site here</i> */}
                 <a href={pink}
                className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
                 target='blank'>
@@ -33,9 +33,9 @@ const Proitems = ({title, desc, techno, pink, rode, type, src}) => {
                 </a>
                </p>
               <p className='mx-2'>
-              <i className='text-xs md:text-base'>source code here</i>
+              {/* <i className='text-xs md:text-base'>source code here</i> */}
                 <a href={rode}
-                className='hover:text-blue-700 inline-block text-base md:text-3xl md:mt-1'
+                className='hover:text-blue-700 inline-block text-lg md:text-3xl md:mt-1'
                 target='blank'>
                     <BsGithub/>
                 </a>

@@ -13,7 +13,7 @@ const Contact = () => {
       <Link className='hover:text-blue-700 mx-3 lg:text-2xl text-lg' target='blank' href={'https://twitter.com/abhishek_dev_47'}> <SiTwitter/> </Link>
     </div>
  <div className='flex flex-row my-auto'>
-   <p className='mt-1 mx-2'> <SiGmail/></p> <p>abhishekkumar.in47@gmail.com</p>
+   <p className='pt-1 px-2'> <SiGmail/></p> <p>abhishekkumar.in47@gmail.com</p>
  </div>
     </div>
   )
