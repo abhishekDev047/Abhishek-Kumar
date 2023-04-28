@@ -3,13 +3,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import Contact from './contact';
+import { useSelector } from 'react-redux';
 
 
 const HomePage = () => {
+    const mode =useSelector(state=>state.Mode.value);
     return (
-        <div >
+        <div className={mode}>
+        <div className='dark:text-white dark:bg-zinc-900'>
             <Head> <title>abhishek-kumar</title></Head>
-            <div className='h-[550px] bg-slate-200 text-center flex flex-col topsection'>
+            <div className='h-[550px] bg-slate-200 dark:bg-zinc-800 text-center flex flex-col topsection'>
                 <div className='mx-auto md:my-auto mt-60 flex flex-col items-center text-2xl'>
                     <p>Hi I am</p>
                     <p className='text-red-900'> Abhishek Kumar</p>
@@ -64,6 +67,7 @@ const HomePage = () => {
                                     </div>
                 </div>
                
+            </div>
             </div>
         </div>
     )

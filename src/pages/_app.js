@@ -1,9 +1,12 @@
 import '@/styles/globals.css';
 import Navbar from './components/navbar';
+import { Provider } from 'react-redux';
+import Store from '@/Store';
 
 export default function App({ Component, pageProps }) {
   return(
-    <div className='flex flex-col'>
+    <Provider store={Store}>
+    <div className='flex flex-col w-full'>
     <div>
     <Navbar/>
     </div>
@@ -11,6 +14,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
     </div>
     </div>
-    
+    </Provider>
      )
 };
