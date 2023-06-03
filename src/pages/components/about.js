@@ -68,7 +68,7 @@ const About = () => {
          Certificates <span className='"m-2 text-lg lg:text-2xl"'><FaCertificate/></span>
         </p>
         <p className='text-blue-800'>
-          <Link target='blank' href={'https://www.freecodecamp.org/certification/Abhishek-Kumar-047/front-end-development-libraries'}> Verify at FCC's official site </Link>
+          <Link target='blank' href={'https://www.freecodecamp.org/certification/Abhishek-Kumar-047/front-end-development-libraries'}> Verify at FCCs official site </Link>
         </p>
         <div >
           <Image
