@@ -1,10 +1,12 @@
 import Head from 'next/head';
 import React from 'react'
 import Contact from './contact';
+import { FaCertificate } from "react-icons/fa";
 import { SlPhone } from "react-icons/sl";
 import { SiWhatsapp,SiHtml5,SiCss3,SiJavascript,SiNodedotjs,SiNpm,SiYarn,SiBootstrap,SiTailwindcss,SiReact,SiNextdotjs,SiGit,SiGithub,SiRedux,SiTypescript } from "react-icons/si";
 import Image from 'next/legacy/image';
 import { useSelector } from 'react-redux';
+import Link from 'next/link';
 
 const About = () => {
   const mode =useSelector(state=>state.Mode.value);
@@ -60,6 +62,26 @@ const About = () => {
 
           </p>
           </div>
+      <div className={mode}>
+        <div className='flex flex-col items-center justify-center p-6'>
+        <p className='text-3xl flex flex-row '>
+         Certificates <span className='"m-2 text-lg lg:text-2xl"'><FaCertificate/></span>
+        </p>
+        <p className='text-blue-800'>
+          <Link target='blank' href={'https://www.freecodecamp.org/certification/Abhishek-Kumar-047/front-end-development-libraries'}> Verify at FCC's official site </Link>
+        </p>
+        <div >
+          <Image
+          layout='intrinsic'
+          width={858}
+          height={646}
+          className='rounded-lg'
+            src='/images/certificate1.png'
+            alt={'abhishek-kumar'}
+          />
+      </div>
+        </div>
+      </div>
       </div>
 
 
